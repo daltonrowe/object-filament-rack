@@ -10,7 +10,6 @@ import {
 import brace from "./brace.js";
 import posts from "./posts.js";
 import rodHolder from "./rod-holder.js";
-import rodHole from "./rod-hole.js";
 
 function positionRod(object) {
   return object
@@ -27,6 +26,5 @@ export default function () {
       brace().translate_z(bodyDepth * -1),
       positionRod(rodHolder()).translate_z((bodyDepth / 2) * -1),
     ),
-    positionRod(rodHole()),
   );
 }

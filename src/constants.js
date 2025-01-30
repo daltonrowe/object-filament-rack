@@ -12,7 +12,7 @@ function constant(value) {
 }
 
 export const nothing = 0.03;
-export const tolerance = 0.18;
+export const tolerance = 0.2;
 
 export const postRadius = constant(2.5) - tolerance;
 export const postHeight = constant(10);
@@ -26,7 +26,7 @@ export const postToWall = constant(37);
 
 export const rodHeight = constant(50);
 export const rodRadius = constant(13);
-export const rodOffsetX = constant(50);
+export const rodOffsetX = constant(40);
 export const rodOffsetY = constant(60);
 
 export const holderHeight = constant(10);
