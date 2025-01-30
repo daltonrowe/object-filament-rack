@@ -22,14 +22,14 @@ difference()
     {
       linear_extrude(height = 3, center = false, convexity = undef, twist = undef, slices = undef, scale = 1, $fn = 20)
       {
-        polygon(points = [[-40, 37], [-130, -50], [-116, -50], [-110, -90], [75, -20], [75, 37]], paths = undef, convexity = 1);
+        polygon(points = [[-40, 37], [-115, -50], [-101, -50], [-95, -90], [75, -20], [75, 37]], paths = undef, convexity = 1);
       }
     }
     translate(v = [0, 0, -1.5])
     {
       translate(v = [0, -60, 0])
       {
-        translate(v = [-40, 0, 0])
+        translate(v = [-25, 0, 0])
         {
           translate(v = [0, -13, 0])
           {

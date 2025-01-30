@@ -26,7 +26,7 @@ export const postToWall = constant(37);
 
 export const rodHeight = constant(50);
 export const rodRadius = constant(13);
-export const rodOffsetX = constant(40);
+export const rodOffsetX = constant(25);
 export const rodOffsetY = constant(60);
 
 export const holderHeight = constant(10);
