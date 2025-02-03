@@ -7,7 +7,7 @@ import {
   tolerance,
 } from "../constants.js";
 
-const spacingRatio = 1.4
+const spacingRatio = 1.4;
 
 export default function () {
   return union(

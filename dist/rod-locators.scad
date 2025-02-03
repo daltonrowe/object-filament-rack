@@ -5,11 +5,11 @@ translate(v = [10, 0, 0])
   {
     translate(v = [0, 16.714285714285715, 0])
     {
-      cylinder(h = 3.03, r = 2, center = true);
+      cylinder(h = 6.03, r = 2, center = true);
     }
     translate(v = [0, -16.714285714285715, 0])
     {
-      cylinder(h = 3.03, r = 2, center = true);
+      cylinder(h = 6.03, r = 2, center = true);
     }
   }
 }

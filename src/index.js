@@ -1,4 +1,7 @@
 import { difference, union } from "scad-js";
+import brace from "./components/brace.js";
+import posts from "./components/posts.js";
+import rodHolder from "./components/rod-holder.js";
 import {
   bodyDepth,
   bodyHeight,
@@ -7,9 +10,6 @@ import {
   rodOffsetY,
   rodRadius,
 } from "./constants.js";
-import brace from "./components/brace.js";
-import posts from "./components/posts.js";
-import rodHolder from "./components/rod-holder.js";
 
 function positionRod(object) {
   return object
